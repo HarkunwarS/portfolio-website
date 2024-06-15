@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+button {
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, rgba(16,185,129,1) 0%, rgba(9,121,109,1) 100%);
+}
+
+.navbar-btn {
+  border: 2px solid white;
+  background: transparent;
+  transition: background 0.3s ease;
+}
+
+.navbar-btn:hover {
+  background: linear-gradient(90deg, rgba(16,185,129,1) 0%, rgba(9,121,109,1) 100%);
+}
+
+.transparent-box {
+  background: rgba(0, 0, 0, 0.5); /* 50% opacity */
+}
+
+.action-btn {
+  background: transparent;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  padding: 1rem;
+  border: 2px solid white;
+}
+
+.action-btn:hover {
+  background: linear-gradient(90deg, rgba(16,185,129,1) 0%, rgba(9,121,109,1) 100%);
+}
